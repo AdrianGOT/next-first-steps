@@ -1,0 +1,12 @@
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+    color: rgb(167, 167, 219);
+    transition: color .5s ease, text-decoration .5s ease;
+}
+
+.active-link{
+    color: rgb(29, 29, 211);
+}
